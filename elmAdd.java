@@ -5,7 +5,9 @@ public class areavol{
         Scanner input = new Scanner(System.in);
         int num = input.nextInt();
         int sum = 0;
-
+        
+        
+        System.out.println("Enter num");
         while(num>0){
             x = num % 10;
             sum += x;
