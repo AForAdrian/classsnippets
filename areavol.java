@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.lang.Math;
 
 public class areavol{
     public static void main(String[] args){
@@ -6,7 +7,7 @@ public class areavol{
         double radius = input.nextDouble();
         double len = input.nextDouble();
 
-        double area = (radius*radius*22/7);
+        double area = (radius*radius*Math.pi);
         double vol = (area*len);
 
         System.out.println(area);
