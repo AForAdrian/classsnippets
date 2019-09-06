@@ -16,6 +16,6 @@ public class Hello{
 		System.out.println(fiv(nyrs, amt, irate));			
 }
 	public static double fiv(int nyrs, int amt, double irate){
-		return (amt*Math.pow((1+(irate/1200), (nyrs*12))));		
+		return (amt*Math.pow((1+(irate/1200)), (nyrs*12)));		
 }
 }
