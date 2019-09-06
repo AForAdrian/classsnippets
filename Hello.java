@@ -17,6 +17,6 @@ public class Hello{
 }
 	public static double fiv(int nyrs, int amt, double irate){
 		double fiv;
-		return (amt*Math.pow((1+irate), (nyrs*12)));		
+		return (amt*Math.pow((1+(irate/1200), (nyrs*12)));		
 }
 }
