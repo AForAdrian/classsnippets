@@ -25,7 +25,7 @@ public class studClass{
         String []studNames = new String[numStuds];
         int []scoreArray = new int [numStuds];
         
-        for (count = 0; count < numStuds; count++){
+        for (count = 0; count < (numStuds-1); count++){
             read.nextLine();
             System.out.println( "Emter student name");
             studNames[count] = read.nextLine();
@@ -34,6 +34,6 @@ public class studClass{
             scoreArray[count]= read.nextInt();
         }
         System.out.println("Max score is: " + max(scoreArray));
-        System.out.println("2nd score is: " + getSecondLargest(scoreArray, scoreArray.length()));
+        System.out.println("2nd score is: " + getSecondLargest(scoreArray, scoreArray.length));
     }  
 }
