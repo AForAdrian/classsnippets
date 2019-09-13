@@ -23,6 +23,6 @@ public class ReadInput{
             }
             sum+=x;
         }while(x!=0);
-        System.out.println(sum/(positive+negative));
+        System.out.println(sum/((positive+negative)-1));
     }
 }
