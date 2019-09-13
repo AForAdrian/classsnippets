@@ -25,7 +25,7 @@ public class studClass{
         String []studNames = new String[numStuds];
         int []scoreArray = new int [numStuds];
         
-        for (count = 0; count < (numStuds-1); count++){
+        for (count = 0; count <=(numStuds-1); count++){
             read.nextLine();
             System.out.println( "Emter student name");
             studNames[count] = read.nextLine();
