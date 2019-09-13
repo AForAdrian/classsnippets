@@ -34,6 +34,6 @@ public class studClass{
             scoreArray[count]= read.nextInt();
         }
         System.out.println("Max score is: " + maximum(scoreArray));
-        System.out.println("2nd score is: " + getSecondLargest(scoreArray));
+        System.out.println("2nd score is: " + getSecondLargest(scoreArray, scoreArray.length()));
     }  
 }
