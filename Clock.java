@@ -60,7 +60,8 @@ public class Clock {
             this.sec = sec;
         }
     }
-    public void tick(){
+   public void tick(){
+       //increment where necessary
         this.sec++;
         if (this.sec>=60){
             this.min++;                    
@@ -68,7 +69,9 @@ public class Clock {
         if(this.min>=60){
             this.hr++;
         }
-        this.sec = sec++%60;
+        this.sec = sec%60;
+        this.min = min%60;
+        this.hr = hr%24;
     }
     
     public void tickDown(){
