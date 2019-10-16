@@ -76,6 +76,17 @@ public class Clock {
     
     public void tickDown(){
         this.sec--;
+        
+        if(this.sec=60){
+            this.min--;
+        }
+        if(this.min=60){
+            this.hr--;
+        }
+        this.sec = sec%60;
+        this.min = min%60;
+        this.hr = hr%24;
+        
     }
     
     public static String addClock(Clock a, Clock b){
