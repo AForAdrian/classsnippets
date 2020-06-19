@@ -1,0 +1,18 @@
+*{
+    font-family: sans-serif;
+    font: 'ubuntu';
+    font-size: 20px;
+    background-color: rgb(16, 16, 65);
+    color: white;
+    margin: 25px;
+}
+
+.card{
+    background-color: rgb(56, 56, 105);
+}
+.btn{
+    background-color: cornflowerblue;
+}
+.btn:hover{
+    background-color: darkgoldenrod;
+}

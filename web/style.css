@@ -1,0 +1,40 @@
+/* *{
+    border: 2px solid purple; 
+} */
+
+
+.nav{
+    display: flex;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+}
+
+.options{
+    text-decoration: none;
+    display: flex;
+    padding: 5px;
+}
+
+.container{
+    padding: 10px;
+    border: purple;
+}
+
+.container h1{
+    font-size: 30px;
+}
+
+.service-imgs{
+    display: flex;
+    height: 25%;
+    width: 80%;
+}
+
+.service-img{
+    height: 25%;
+    width: 30%;
+    padding: 10px;
+}

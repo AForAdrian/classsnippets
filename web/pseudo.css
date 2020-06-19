@@ -1,0 +1,30 @@
+input:required{
+    border: 2px solid #333;
+}
+
+p{
+    color: blue;
+}
+p::first-letter{
+    font-size: 3rem;
+}
+p::first-line{
+    color: black;
+}
+
+p::before{
+    content:'before';
+    background: red;
+    display: block;
+    position: absolute;
+    width: 2px;
+    height: 10px;    
+}
+p::after{
+    content:'after';
+    background: blue+;
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;    
+}
