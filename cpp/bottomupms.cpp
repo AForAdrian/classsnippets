@@ -2,12 +2,6 @@
 using namespace std;
 #define min(A, B) (A<B)?A:B
 
-class merg{
-    public:
-        void mergeip(int[], int, int, int);
-        void mergesortbu(int[], int, int);
-};
-
 int aux[11];
 void mergeip(int a[], int l, int m, int r){
     int i, j, k;
@@ -16,7 +10,6 @@ void mergeip(int a[], int l, int m, int r){
     for(i = m+1; i>l; i--) {aux[i-1] = a[i-1];}
     // moves array leaves j pointing to r
     for(j=m; j<r; j++) {aux[r+m-j] = a[j+1]; }
-
     // the merge
     for(k = l; k<=r; k++){
         a[k] = (aux[i]<aux[j])?aux[i++]:aux[j--];

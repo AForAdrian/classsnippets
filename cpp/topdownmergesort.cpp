@@ -26,11 +26,7 @@ void mergesortud(int a[], int l, int r){
 
 
 
-int main(){
-    // int aux[11] = {8,9,10,11,12,13};
-    // int a[5] = {1,2,3,4,5};
-    // mergeip(a, 1, 5, 12);
-   
+int main(){   
     int a[5] = {1,8,3,4,2};
     mergesortud(a, 1, 5);
 
