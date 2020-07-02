@@ -160,16 +160,16 @@ void SingleList::swapp(int posit){
 		cout<<"Swapping doesn't work here!\n";
 	}
 	else{
-		// cout<<"Hello World!\n";
-		while(pt != NULL){
-			if(pt->number==posit){
-				abc = pt;
-				pt = pt->ptr;
-				pt->ptr = abc;
-				break;
-			}
-			pt = pt->ptr;
-		}
+		cout<<"Hello World!\n";
+		// while(pt != NULL){
+		// 	if(pt->number==posit){
+		// 		abc = pt;
+		// 		pt = pt->ptr;
+		// 		pt->ptr = abc;
+		// 		break;
+		// 	}
+		// 	pt = pt->ptr;
+		// }
 		
 	}
 }

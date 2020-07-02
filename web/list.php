@@ -1,16 +1,7 @@
 <link rel="stylesheet" href="reg.css">
 
 <?php
-    $mysql_servername = "localhost";
-    $mysql_username = "root";
-    $mysql_password = "";
-    $mysql_database = "food_db";
-
-    //create a connection
-    $mysqli = new mysqli($mysql_host, $mysql_username, $mysql_password, $mysql_database);
-    if ($mysqli->connection_error()){
-        die('Error: ('.$mysqli->connect_errno.')'.$mysqli->connect_error);           
-    }
+    require_once('connect.php');
 
     //sql
     $sql = "SELECT * FROM users";
@@ -25,4 +16,5 @@
     }else{
         echo "No records";
     }
+    
 ?>
