@@ -1,7 +1,4 @@
 # classsnippets
-Throwing in chunks of classwork codes
-small programs mostly .c, .c++ and .py files 
+small programs what you would expect in a cs class.
 
-Checkout for school exercises
-Mainly for Strathmore lads
 
